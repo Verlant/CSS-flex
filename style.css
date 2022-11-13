@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.main_grid {
+  height: 400px;
+}
+.red_row {
+  background-color: red;
+  height: 100px;
+}
+.purple_row {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.purple_bg {
+  height: 100px;
+  width: 10%;
+  background-color: purple;
+}
+.blue_row {
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blue_bg {
+  background-color: blue;
+  height: 100px;
+  width: 10%;
+}
+.yellow_row {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.yellow_bg {
+  background-color: yellow;
+  height: 100%;
+  width: 80%;
+}
